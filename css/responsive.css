@@ -1,0 +1,153 @@
+
+@media (max-width : 1200px) {
+    .container {
+        max-width: 1000px ;
+        margin: 0 auto;
+     }
+    .top .nav , .top .login {
+        display: none;
+    }
+    .price-block .grid  {
+        grid-template-columns: 1fr;
+        grid-row-gap: 3em;
+        justify-content: center;
+        
+    
+    }
+    .posit {
+        margin-top: 1600px;
+    }
+}
+@media (max-width : 768px) {
+    body {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .col-1 {
+        margin-top: 70px;
+    }
+    .col-1 h1 {
+        color: var(--lightgray);
+        font-size: 32px;
+        margin-top: 22px;
+    }
+    .col-1 p {
+        font-size: 16px;
+        margin-top: 22px;
+    }
+    .col-2 img {
+        max-width: 365px; 
+        margin-top: 40px;
+    }
+    .mean .title h1 {
+        width: 100%;
+        color: var(--lightgray);
+        font-size: 40px;
+
+    }
+    .way .im-right img:nth-child(2) {
+        right: 78px;
+        bottom: 22px;
+        width: 35%;
+    }
+  
+    .row div .btn-2 , .row div .btn-1 {
+        padding: 8px 12px;
+    }
+    .way {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mean .title h3 {
+        font-size: 12px;
+        
+    }
+    .user-image {
+        display: none;
+    }
+    .way ul {
+        padding-left: 0px;
+    }
+    .way .left li {
+        
+        flex-direction: column;
+        align-items: center; 
+        color: var(--lightgray);
+        margin-bottom: 48px;
+    }
+    .way .im-right img:nth-child(3) {
+        right: 41px;
+        top: -28px;
+        width: 80px;
+    }
+    .way .im-right {
+        margin-bottom: 40px;
+    }
+    .way .left p {
+        margin-top: 12px;
+        font-size: 16px;
+        
+    }
+    .long {
+        display: none;
+    }
+    .short-plan {
+        display: inline-block;
+    }
+    .price-title {
+        margin: 26px 0;
+    }
+    .bottom-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom {
+        margin-top: 1200px;
+    }
+    .price-block .grid .heigh {
+        padding: 32px 24px;
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    .heigh ul {
+        height: 226px;
+        border-top-style: dashed;
+        border-width: 1px;
+        width: 206px;
+    }
+    .heigh button {
+        cursor: pointer;
+        background: none;
+        border: 1px var(--lightgray) solid;
+        color: var(--lightgray);
+        padding: 14px 0;
+        margin-bottom: 24px;
+        border-radius: 8px;
+        width: 206px;
+        text-align: center;
+    }
+    .home {
+        flex-direction: column;
+        align-items: center;
+    }
+    .home ul li {
+        display: none;
+    }
+    .home ul .heading {
+        display: block;
+    }
+    .bottom-main .card {
+        padding: 65px 36px 34px;
+        max-width: 325px;
+        
+    }
+}
